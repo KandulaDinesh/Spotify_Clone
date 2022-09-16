@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+}
+nav ul li {
+    padding: 0 10px;
+
+}
+.brand img{
+    width: 48px;
+    padding-right: 6px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border: radius 12px;
+    padding: 30px;
+    background-image: url('music.jpg');
+   
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons pre img {
+    cursor: pointer;
+    color: white;
+    height: 20px;
+    size: 10px;
+}
+#myBar{
+    width: 80vw;
+    text-align: center;
+    color: aqua;
+    cursor: pointer;
+}
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: white ;
+    color: black;
+    margin: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    height: 40px;
+    width: 30px;
+    margin: 0 23px;
+    border-radius: 34px;
+    display: flex;
+    
+}
+.time{
+    margin: 0 23px;
+}
+.time img{
+    height: 15px;
+    cursor: pointer;
+}
+.songItemContainer{
+    
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+h1{
+    padding: 10px;
+}

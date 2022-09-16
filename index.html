@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.svg" alt="Nothing">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>My Favourite Songs Playlists</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="music.jpeg" alt="1">
+                    <span>Let me love you</span>
+                    <span class="songlistplay"><span class="time"><img src="play-solid.svg" alt="Nothing"></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music.jpeg" alt="1">
+                    <span>Shape of you</span>
+                    <span class="songlistplay"><span class="time"><img src="play-solid.svg" alt="Nothing"></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music.jpeg" alt="1">
+                    <span>Let me slow down</span>
+                    <span class="songlistplay"><span class="time"><img src="play-solid.svg" alt="Nothing"></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music.jpeg" alt="1">
+                    <span>Tum hi ho</span>
+                    <span class="songlistplay"><span class="time"><img src="play-solid.svg" alt="Nothing"></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music.jpeg" alt="1">
+                    <span>Coca Cola</span>
+                    <span class="songlistplay"><span class="time"><img src="play-solid.svg" alt="Nothing"></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music.jpeg" alt="1">
+                    <span>Believe it</span>
+                    <span class="songlistplay"><span class="time"><img src="play-solid.svg" alt="Nothing"></span></span>
+                </div>
+            </div>
+        </div>  
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myBar" min="0" max="100">
+        <div class="icons">
+            <!-- icons take from the font awesome -->
+            <i class="fa-solid fa-play"></i>
+            <pre> <img src="backward-solid.svg" alt="Nothing"> <img src="play-solid.svg" alt="Nothing" id="masterPlay"> <img src="forward-solid.svg" alt="Nothing"> </pre>
+        </div>
+        <div class="songInfo">
+            <img src="gif.gif" width="25px" alt="no music"> let me love you-justin bieber
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
